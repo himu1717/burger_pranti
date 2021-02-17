@@ -1,0 +1,492 @@
+/* Font-Family: Alfa Slab One, Bebas Neue & Monserrat  */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* ========= 
+Global CSS
+========= */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h3{
+    font-family: 'Alfa Slab One', cursive;
+}
+h2,h4,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+button{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+/* =============
+Header Section
+============= */
+header{
+    background: url(../images/G1-BGimage.png) no-repeat center top;
+    width: 100%;
+    padding: 20px 20px 55px;
+    color: #3d2514;
+}
+.logo{
+    line-height: 70px;
+}
+.mobile-logo{
+    display: none;
+}
+.contact-info{
+    text-align: right;
+    margin: 0px;
+    line-height: 70px;
+    font-weight: 600;
+}
+.contact-info li{
+    display: inline;
+    list-style: none;
+    color: #3d2514;
+    padding-right: 22px;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* Navigation section */
+.navbar{
+    padding: 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3d2514;
+    padding: 12px;
+    text-align: right;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.nav-item{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    color:#3d2514;
+    line-height: 0px;
+    font-size: 22px;
+    padding-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#db2525;
+}
+/* Banner section */
+.context h4{
+    border: 2px dashed #3d2514;
+    width: 71%;
+    margin-top: 160px;
+    padding: 6px 18px;
+    font-size: 22px;
+}
+.context h1{
+    font-size: 110px;
+    line-height: 105px;
+    margin: 4px 8px 0px 0;
+    text-shadow: 4px 5px 3px #fee8bc;
+}
+.context h3{
+    font-size: 60px;
+    line-height: 53px;
+    margin: 4px 8px 0px 0;
+    text-shadow: 4px 5px 2px #fee8bc;
+}
+.package{
+    position: relative;
+    color: #fff;
+}
+.package-price{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background: #bf2222;
+    border-radius: 50%;
+    bottom: -20px;
+    left: 18px;
+    padding: 10px;
+}
+.price-border{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px dashed #fff;
+}
+.package-price h2{
+    padding: 16px 0 0 30px;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.package-price h4{
+    padding-left: 34px;
+    letter-spacing: 16px;
+    line-height: 0;
+}
+.package-price span{
+    font-size: 25px;
+}
+
+/*============
+ Add section
+============ */
+.add-burger{
+    position: relative;
+    margin: 50px 0;
+}
+.add-burger img{
+    border-radius: 2%;
+}
+.add-burger-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    padding: 25px 0 0 25px;
+    color: #fff;
+    word-spacing: 2px;
+}
+.add-burger-text h6{
+    margin: 0;
+    line-height: 18px;
+    font-size: 25px;
+}
+.add-burger-text h4{
+    margin: 10px 0;
+    line-height: 40px;
+    font-size: 40px;
+}
+.no-padding{
+    margin-top: -18px;
+}
+
+
+/* ===========
+Menu Section
+ ===========*/
+ .menu-section{
+     color: #3d2514;
+ }
+.menu-section h6{
+    text-align: center;
+    width: 20%;
+    background: #ffc045;
+    margin: 0 40% 1%;
+    line-height: 45px;
+    font-size: 25px;
+}
+.menu-section h3{
+    text-align: center;
+    margin: 0 25%;
+    line-height: 45px;
+    font-size: 30px;
+    width: 50%;
+}
+.menu-section p{
+    text-align: center;
+    line-height: 32px;
+    padding: 0 12px;
+}
+.order-menu{
+    color: #3d2514;
+}
+.order-menu h6{
+    margin: 10px 90px 0;
+    width: 55%;
+    background: none;
+    font-size: 30px;
+}
+.order-menu p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.order-menu button{
+    width: 40%;
+    margin: 0 33%;
+    padding: 12px;
+    background: #bf2222;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 4px #3d2514;
+}
+.order-menu button:focus,
+.order-menu button:hover{
+    background: #ffc045;
+    color: #3d2514;
+}
+
+
+/*=============
+ Event Section
+============= */
+.event-area{
+    box-shadow: 0px 0px 40px #9e8d8d;
+    padding: 40px;
+    color: #3d2514;
+}
+.event-section{
+    padding: 75px 0;
+}
+.event-section h6{
+    padding-top: 30px;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+.event-section h3{
+    line-height: 36px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.event-section p{
+    padding-right: 59px;
+    font-size: 17px;
+}
+/* Owl Carousel Section */
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+.owl-carousel button.owl-dot {
+    outline: none;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 2px 4px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -24px;
+    text-align: left;
+    z-index: 999;
+    position: relative;
+}
+
+/* =================
+Reservation Section
+=================*/
+.reservation-section{
+    background: url(../images/G5-BGimage.png) no-repeat center;
+    width: cover;
+    padding: 74px 20px;
+    color: #3d2514;
+}
+.reservation-section h6{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.reservation-section h3{
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 60px;
+}
+.form-group{
+    margin-bottom: 25px;
+}
+.form-info{
+    border: 2px solid #bebebe;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 8px;
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.form-info:focus{
+    border: 2px solid #ffc045;
+}
+.reservation-btn {
+    background: #bf2222;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 4px;
+}
+
+
+
+
+/* =============
+Footer Section
+============= */
+footer{
+    background: url(../images/G6-Footer.png) no-repeat center;
+    width: cover;
+    padding: 75px 0 25px;
+}
+footer p{
+    color: white;
+    padding: 30px 20px 100px 0;
+    margin-bottom: 0;
+}
+.widget h2{
+    color: #fff;
+    padding: 35px 35px 32px;
+    margin-bottom: 0;
+}
+.widget ul{
+    padding: 0 30px;
+    list-style: none;
+}
+.useful-links ul li a{
+    color: #eee;
+    text-decoration: none;
+    line-height: 30px;
+    transition: ease-in-out 0.3s;
+}
+.useful-links ul li a:hover{
+    color: #ffc045;
+    padding-left: 5px;
+}
+.social-media ul li{
+    display: inline;
+}
+.social-media ul li a .fa{
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    background: #ffc045;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: ease-in-out 0.5s;
+}
+.social-media ul li a .fa:hover{
+    transform: rotate(360deg);
+}
+.social-media ul li a .fa-facebook:hover{
+    background: #139ef8;
+}
+.social-media ul li a .fa-twitter:hover{
+    background: #1aa2f0;
+}
+.social-media ul li a .fa-linkedin:hover{
+    background: #2564b2;
+}
+.social-media ul li a .fa-instagram:hover{
+    background: #b533a7;
+}
+.social-media ul li a .fa-youtube:hover{
+    background: #fb0200;
+}
+footer h6{
+    color: #fff;
+}
+
+
+/* =====================
+Media Query For Mobile
+===================== */
+@media (min-width: 320px) and (max-width: 576px){
+    header{
+        padding: 20px 0px 40px;
+    }
+    .logo{
+        display: none;
+    }
+    .mobile-logo{
+        display: initial;
+    }
+    .contact-info {
+        text-align: center;
+        margin: 4px;
+        line-height: 0;
+        padding-left: 0;
+    }
+    .navbar-light .navbar-toggler {
+        color: #3d2514;
+        border-color: rgba(61,37,20,.5);
+    }
+    .package-price {
+        width: 160px;
+        height: 160px;
+    }
+    .price-border {
+        width: 140px;
+        height: 140px;
+    }
+    .package-price h2 {
+        padding: 16px 0 0 26px;
+    }
+    .package-price h4 {
+        padding-left: 30px;
+        letter-spacing: 16px;
+    }
+    .context h4 {
+        width: 67%;
+        margin: 110px auto 10px;
+        font-size: 16px;
+    }
+    .context h1 {
+        font-size: 80px;
+        line-height: 70px;
+        margin: 0 auto 8px;
+        text-align: center;
+    }
+    .context h3 {
+        font-size: 44px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .add-burger {
+        margin: 30px auto 0;
+    }
+    .add-burger-text h4 {
+        margin: 4px 0;
+        line-height: 37px;
+        font-size: 36px;
+    }
+    .menu-section h6 {
+        width: 45%;
+        margin: 40px auto 0;
+        line-height: 36px;
+    }
+    .menu-section h3 {
+        text-align: center;
+        margin: 4px auto 0;
+        width: 62%;
+    }
+    .menu-section p {
+        line-height: 20px;
+        margin-bottom: -10px;
+        padding: 0 23px;
+    }
+    .order-menu h6 {
+        margin: -10px auto 2px;
+        line-height: 30px;
+    }
+    .order-menu .mobile-section h6{
+        margin-top: -2px;
+    }
+    .order-menu p {
+        line-height: 20px;
+        margin-bottom: 6px;
+        font-weight: 400;
+        padding: 0 32px;
+    }
+    .order-menu button {
+        width: 28%;
+        margin: 0px 36% 8%;
+        padding: 8px;
+    }
+    .order-menu .mobile-section{
+        margin-bottom: -6%;
+    }
+
+}
+
+
+
